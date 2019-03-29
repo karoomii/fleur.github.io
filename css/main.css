@@ -553,6 +553,7 @@ video {
 	}
 }
 /*SPRITE SPECIFIC MEDIA QUERIES*/
+/*
 @media only screen and (max-height: 700px) {
 	#logo-sprite {
 		height: 352px;
@@ -582,6 +583,7 @@ video {
 		to { background-position: 0px 0px }
 	}
 }
+*/
 /*END SPRITE SPECIFIC MEDIA QUERIES*/
 /*737*/
 @media only screen and (min-width: 737px) {
@@ -941,6 +943,7 @@ video {
 		top: 0; left: 0; right: 0;
 		margin: auto;
 		margin-top: 5%;
+		display: block;
 	}
 	.content-section {
 		width: 80%;
