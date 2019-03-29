@@ -129,13 +129,12 @@ body {
 }
 #menu-logo {
 	position: absolute;
-	width: 30%;
+	width: 50%;
 	left: 0;
 	right: 0;
 	margin: auto;
 	margin-top: 10%;
 	cursor: pointer;
-	display: none;
 }
 .menu-section ol {
 	list-style: none;
@@ -288,7 +287,7 @@ a {
 /*IMAGES*/
 #opening-logo {
 	position: absolute;
-	width: 50%;
+	width: 40%;
 	left: 0;right: 0;top: 0; bottom: 0;
 	margin: auto;
 	opacity: 0;
@@ -946,6 +945,9 @@ video {
 		display: block;
 		width: 60%;
 	}
+	#opening-logo {
+		width: 80%;
+	}
 	.content-section {
 		width: 80%;
 		margin-left: 10%;
@@ -962,7 +964,7 @@ video {
 		padding-bottom: 20%;
 	}
 	.full {
-		height: 75vh;
+		height: 30vh;
 		transform: translateX(0);
 	}
 	.footer {
