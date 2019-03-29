@@ -67,7 +67,7 @@ $(function(){
 	});
 	$('.section:nth-child(5) .button').click(function(){
 	setTimeout(function(){
-				 $(".content-section").load("fp.html");  
+				 $(".content-section").load("bona.html");  
 			   }, 1000);
 	});
 	
