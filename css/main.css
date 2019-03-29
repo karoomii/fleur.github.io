@@ -466,6 +466,7 @@ a {
 }
 .smaller-img {
 	width: 20%;
+	display: list-item;
 }
 video {
 	width: 100%;
