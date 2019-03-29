@@ -34,6 +34,7 @@ body {
 	padding: 0;
 	background-color: #f2f0ed;
 	background-color: #f8f0ed;
+	background-color: #fffaf3;
 	overflow-x: hidden;
 }
 #wrapper {
@@ -89,6 +90,7 @@ body {
 	background-color: white;
 	background-color: #e0dbd8;
 	background-color: #e4dad7;
+	background-color: #f7eadc;
 }
 .footer-overlay {
 	width: 100%;
@@ -102,7 +104,7 @@ body {
 }
 #footer-logo {
 	position: absolute;
-	height: 30%;
+	height: 50%;
 	top: 0; bottom: 0; right: 0;
 	margin: auto;
 	margin-right: 8%;
@@ -127,12 +129,13 @@ body {
 }
 #menu-logo {
 	position: absolute;
-	width: 38%;
+	width: 30%;
 	left: 0;
 	right: 0;
 	margin: auto;
 	margin-top: 10%;
 	cursor: pointer;
+	display: none;
 }
 .menu-section ol {
 	list-style: none;
@@ -166,7 +169,7 @@ body {
 	overflow: hidden;
 	cursor: pointer;
 	background-color: transparent;
-	outline: none!important;
+	outline: none !important;
 }
 .button h2 {
 	position: relative;
@@ -285,10 +288,14 @@ a {
 /*IMAGES*/
 #opening-logo {
 	position: absolute;
-	height: 30%;
+	width: 50%;
 	left: 0;right: 0;top: 0; bottom: 0;
 	margin: auto;
+	opacity: 0;
+	transition-property: transform, opacity;
+	transition: 0.6s ease;
 }
+/*
 #logo-sprite {
 	position: absolute;
 	left: 0; right: 0; top: 0; bottom: 0;
@@ -304,6 +311,7 @@ a {
 .sprite-animation-reverse {
 	animation: draw-sprite-reverse 1s steps(41) forwards;
 }
+*/
 #img-me {
 	position: absolute;
 	right: 0;
@@ -397,7 +405,7 @@ a {
 .bona-desc {
 	margin-right: 55%;
 }
-.sweeterman-desc {
+.guldsmed-desc {
 	float: left!important;
 	margin-right: 45%;
 }
@@ -408,13 +416,13 @@ a {
 	float: left!important;
 	margin-right: 45%;
 }
-.fp-desc {
+.crave-desc {
 	margin-right: 55%;
 }
 #coffee {
 	width: 45%;
 }
-#sweets {
+#guldsmed {
 	float: left;
 	margin-left: 50%;
 	width: 35%;
@@ -427,7 +435,7 @@ a {
 	margin-left: 50%;
 	width: 35%;
 }
-#fp {
+#craveburger {
 	width: 45%;
 }
 

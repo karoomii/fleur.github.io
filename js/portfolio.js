@@ -47,14 +47,14 @@ $(function(){
 	
 	$('.section:nth-child(1) .button').click(function(){
 	setTimeout(function(){
-				 $(".content-section").load("bona.html");  
+				 $(".content-section").load("crave.html");  
 			   }, 1000);
 	});
-//	$('.section:nth-child(2) .button').click(function(){
-//	setTimeout(function(){
-//				 $(".content-section").load("sweeterman.html");  
-//			   }, 1000);
-//	});
+	$('.section:nth-child(2) .button').click(function(){
+	setTimeout(function(){
+				 $(".content-section").load("guldsmed.html");  
+			   }, 1000);
+	});
 	$('.section:nth-child(3) .button').click(function(){
 	setTimeout(function(){
 				 $(".content-section").load("peak.html");  
