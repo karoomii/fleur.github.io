@@ -944,6 +944,7 @@ video {
 		margin: auto;
 		margin-top: 5%;
 		display: block;
+		width: 60%;
 	}
 	.content-section {
 		width: 80%;
