@@ -418,6 +418,13 @@ a {
 .crave-desc {
 	margin-right: 55%;
 }
+.victorian-desc {
+	float: left!important;
+	margin-right: 45%;
+}
+.bcc-desc {
+	margin-right: 55%;
+}
 #coffee {
 	width: 45%;
 }
@@ -435,6 +442,14 @@ a {
 	width: 35%;
 }
 #craveburger {
+	width: 45%;
+}
+#victorian {
+	float: left;
+	margin-left: 50%;
+	width: 35%;
+}
+#BCC {
 	width: 45%;
 }
 
