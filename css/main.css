@@ -1085,4 +1085,7 @@ video {
 	.project-wrap img {
 		margin-top: 20pt!important;
 	}
+	video {
+		display: none;
+	}
 }
