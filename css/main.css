@@ -80,8 +80,9 @@ body {
 	width: 100%;
 	position: relative;
 }
-.full {
+.section.full {
 	width: 100vw;
+	height: 100vh;
 	transform: translateX(-25vw);
 }
 .footer {
@@ -464,6 +465,7 @@ a {
 	opacity: 0;
 	transition: opacity 1s ease;
 	margin-bottom: 50pt;
+	margin-top: 50pt;
 }
 .project-section p {
 	text-align: center;
@@ -494,8 +496,8 @@ a {
 	display: list-item;
 }
 video {
+	margin-top: 50pt;
 	width: 100%;
-	margin-bottom: 150pt;
 }
 
 /*END PROJECT PAGES*/
@@ -942,7 +944,7 @@ video {
 
 
 /*RATIOS*/
-@media only screen and (max-aspect-ratio: 5/7) {
+@media only screen and (max-aspect-ratio: 7/7) {
 	.menu-section {
 		position: fixed;
 		top: 0;
@@ -989,7 +991,7 @@ video {
 		flex-direction: column;
 		padding-bottom: 20%;
 	}
-	.full {
+	.section.full {
 		height: 30vh;
 		transform: translateX(0);
 	}
