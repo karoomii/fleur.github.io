@@ -426,6 +426,10 @@ a {
 .bcc-desc {
 	margin-right: 55%;
 }
+.makedup-desc {
+	float: left!important;
+	margin-right: 45%;
+}
 #coffee {
 	width: 45%;
 }
@@ -452,6 +456,11 @@ a {
 }
 #BCC {
 	width: 45%;
+}
+#makedup {
+	float: left;
+	margin-left: 50%;
+	width: 35%;
 }
 
 

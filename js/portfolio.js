@@ -47,35 +47,40 @@ $(function(){
 	
 	$('.section:nth-child(1) .button').click(function(){
 	setTimeout(function(){
-				 $(".content-section").load("crave.html");  
+				 $(".content-section").load("makedup.html");  
 			   }, 1000);
 	});
 	$('.section:nth-child(2) .button').click(function(){
 	setTimeout(function(){
-				 $(".content-section").load("guldsmed.html");  
+				 $(".content-section").load("crave.html");  
 			   }, 1000);
 	});
 	$('.section:nth-child(3) .button').click(function(){
 	setTimeout(function(){
-				 $(".content-section").load("bcc.html");  
+				 $(".content-section").load("guldsmed.html");  
 			   }, 1000);
 	});
 	$('.section:nth-child(4) .button').click(function(){
 	setTimeout(function(){
-				 $(".content-section").load("victorian.html");  
+				 $(".content-section").load("bcc.html");  
 			   }, 1000);
 	});
 	$('.section:nth-child(5) .button').click(function(){
 	setTimeout(function(){
-				 $(".content-section").load("peak.html");  
+				 $(".content-section").load("victorian.html");  
 			   }, 1000);
 	});
 	$('.section:nth-child(6) .button').click(function(){
 	setTimeout(function(){
-				 $(".content-section").load("trap.html");  
+				 $(".content-section").load("peak.html");  
 			   }, 1000);
 	});
 	$('.section:nth-child(7) .button').click(function(){
+	setTimeout(function(){
+				 $(".content-section").load("trap.html");  
+			   }, 1000);
+	});
+	$('.section:nth-child(8) .button').click(function(){
 	setTimeout(function(){
 				 $(".content-section").load("bona.html");  
 			   }, 1000);
